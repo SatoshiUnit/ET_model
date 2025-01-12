@@ -1,1 +1,1 @@
-# EthNotes
+# Economic Model
