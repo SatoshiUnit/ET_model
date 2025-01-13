@@ -21,3 +21,6 @@ We investigate the proposer's decision to sell the ET in the secondary market. T
 - For simplicity, we assume no capital requirements for buyers to participate in the auction. To endogenize participation, we may introduce a capital cost $K \geq 0$ to explore the optimal timing of buyer participation.
 - **Random variable** $\mathcal{R}$ represents the prize of execution layer rewards, which is the profit from winning the ET to exploit its issuance reward and MEV.
 - Without loss of generality, consider an ET ticket of maturity $T \in \mathbb{N}$, with discrete time intervals.
+
+##Endogeneous Sale Timing
+##Voluntary Buyer Participation
