@@ -81,11 +81,8 @@
 \renewcommand\theassum{\arabic{assum}}
 \setlength {\marginparwidth }{2cm}
 \begin{document}
-\maketitle 
-\section{Introduction}
-The article takes the viewpoint that it is important to model the secondary ET market when designing primary ET market mechanisms. We model the market of execution tickets (ETs) as that of option contracts to explore a conjectured equivalence between ETs and MEV-Boost. Section 1 describes the technical details of the ET to draw its connection to an option. Section 2 provides an auction model where the seller, being the proposer, can decide the timing of selling its option contract, being the minted ET lottery ticket. For a revenue-, equivalently, MEV-maximizing, and risk neutral proposer's execution right is only active for a finite period of time, finding it optimal to auctions off the right closer to the required deadline (check name), the (check name) mechanism, in the limit, confers to a MEV-Boost auction taking place at the predetermined.... 
-
-\subsection{ET}
+\maketitle
+\section{ET}
 Consider the ET mechanism (Economic Analysis of Execution Ticket, cite): (a) a protocol sells an exogenous supply of ETs to the group of validators, this first round of ET purchase directly from the protocol is the \textit{primary ET market}, each ET confers its holder the proposing right for some future block, (b) one ET is drawn for every block where its holder wins the proposing right, and (c) after the winner's proposal, its ticket is \textit{burned}---permanently removed from the network, simultaneously \textit{minting}---generating a new---ET to reiterate the primary market exchange. 
 
 A \textit{secondary ET market} emerges exactly because of the \textit{forward nature}. First, we notice the right to exploit MEV in the future. ET also may come with a maturity, requiring that the proposing right be executed within some number of forthcoming blocks. 
