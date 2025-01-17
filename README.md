@@ -18,9 +18,12 @@ A **_secondary ET market_** emerges exactly because of the **_forward nature_** 
 
 ## Why care about the Secondary Market
 Should there be no ETs, the protocol distriutes a bundle of proposing, building, and validating rights to the proposer by default. The PBS is a class of market mechanisms for the proposer to delegate the building right. 
+
+(Note: an arrow represents a market, pointing from seller to buyer)
 ![Diagram of PBS](noET.png "No ET, PBS")
-With ET, the bundle of rights is no longer **_endowed_** by the protocol to the proposer, but sold, using a market mechanism (primary ET market). The secondary market can be considered as nested by the primary market. 
+With ET, the bundle of rights is no longer **_endowed_** by the protocol to the proposer, but sold, using a market mechanism (primary ET market). Ex-ante secondary ET sale, the secondary market can be considered as nested by the primary market. 
 ![Diagram of PBS](withET.png "With ET, PBS")
+However, ex-post secondary ET sale, that is, should the ET holder decide not to exercise, the secondary market becomes the bridge between primary ET market and the PBS market. 
 
 ## The Model
 
