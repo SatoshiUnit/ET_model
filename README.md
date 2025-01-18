@@ -21,9 +21,9 @@ Should there be no ETs, the protocol distriutes a bundle of proposing, building,
 
 (Note: an arrow represents a market, pointing from seller to buyer)
 ![Diagram of PBS](noET.png "No ET, PBS")
-With ET, the bundle of rights is no longer **_endowed_** by the protocol to the proposer, but sold, using a market mechanism (primary ET market). Ex-ante secondary ET sale, the secondary market can be considered as nested by the primary market. 
+With ET, the bundle of rights is no longer **_endowed_** by the protocol to the proposer, but sold, using a market mechanism (primary ET market).  Ex ante the ET holder's decision on whether to exercise, or sell the ticket, the secondary ET market can be considered as nested by the primary market. 
 ![Diagram of PBS with ET ex ante secondary sale](withET.png "With ET, ex-ante secondary sale, PBS")
-However, ex-post secondary ET sale, that is, should the ET holder decide not to exercise, the secondary market becomes the bridge between primary ET market and the PBS market. 
+However, should the ET holder decide to sell instead of exercise, the secondary market becomes the bridge between primary ET market and the PBS market.
 ![Diagram of PBS with ET ex post secondary sale](ET_secondary.png "With ET, ex-post secondary sale, PBS")
 ## The Model
 
