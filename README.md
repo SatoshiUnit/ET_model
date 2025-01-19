@@ -17,7 +17,7 @@ A **_secondary ET market_** emerges exactly because of the **_forward nature_** 
 
 
 ## Secondary Market
-Existing studies (Burian, Capris, and Saleh 2024; EF research articles) suggests ETs introduce centralization risks, can a secondary market allocate tickets to a diverse group of buyers to decentralize proposal rights?
+Existing studies (Burian, Capris, and Saleh 2024; EF research articles) suggest ETs introduce centralization risks, can a secondary market allocate tickets to a diverse group of buyers to decentralize proposal rights?
 
 Should there be no ETs, the protocol distriutes a bundle of proposing, building, and validating rights to the (Beacon Chain) proposer by default. The PBS is a class of market mechanisms for the proposer to delegate the building right. 
 
