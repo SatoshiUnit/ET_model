@@ -17,11 +17,13 @@ A **_secondary ET market_** emerges exactly because of the **_forward nature_** 
 
 
 ## Secondary Market: A Collusion-Enabler
-Should there be no ETs, the protocol distriutes a bundle of proposing, building, and validating rights to the proposer by default. The PBS is a class of market mechanisms for the proposer to delegate the building right. 
+Should there be no ETs, the protocol distriutes a bundle of proposing, building, and validating rights to the (Beacon Chain) proposer by default. The PBS is a class of market mechanisms for the proposer to delegate the building right. 
 
 (Note: an arrow represents a market, pointing from seller to buyer)
 ![Diagram of PBS](noET.png "No ET, PBS")
-With ET, the bundle of rights is no longer **_endowed_** by the protocol to the proposer, but sold, using a market mechanism (primary ET market).  Ex ante the ET holder's decision on whether to exercise, or sell the ticket, the secondary ET market can be considered as nested by the primary market. 
+With ET, the proposal right is still **_endowed_** by the protocol to the Beacon Chain proposer, but it now sells the building right to Execution Proposers, using the primary ET market.  
+
+
 ![Diagram of PBS with ET ex ante secondary sale](withET.png "With ET, ex-ante secondary sale, PBS")
 However, should the ET holder decide to sell instead of exercise, the secondary market becomes the bridge between primary ET market and the PBS market.
 ![Diagram of PBS with ET ex post secondary sale](ET_secondary.png "With ET, ex-post secondary sale, PBS")
