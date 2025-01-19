@@ -16,7 +16,7 @@ Consider the ET mechanism:
 A **_secondary ET market_** emerges exactly because of the **_forward nature_** of ETs. ETs may also come with a maturity, requiring that the proposing right be executed within a certain number of forthcoming blocks.
 
 
-## Why care about the Secondary Market
+## Secondary Market: A Collusion-Enabler
 Should there be no ETs, the protocol distriutes a bundle of proposing, building, and validating rights to the proposer by default. The PBS is a class of market mechanisms for the proposer to delegate the building right. 
 
 (Note: an arrow represents a market, pointing from seller to buyer)
