@@ -1,4 +1,9 @@
-# Optimal Timing of ET Sale in Secondary Market
+# ET: Why the Secondary Market deserves a Perusal
+The nondeterminism of execution tickets leverages the uncertainty of blockspace demand to prevent proposers from exerting multi-slot control. However, nondeterminism enabled by the delay of exercising the proposal right also creates a resale market. This article explores mechanism design models that contemplates secondary exchange. The motviation is twofold. First, the secondary market may enable losers in the primary market, and interested buyers to capitalise on the revealed private valuations in the primary exchange. Second, the forwardness of ETs may confer primary market buyers the control over secondary buyers' exercise of ETs through strategic resale timing. 
+
+Understanding the mutual distortions of players' behaviour in a primary-sedonary market structure sheds light on the optimal primary market designs such as pricing mechanisms.
+
+
 We model the market of execution tickets (ETs) as that of auctions of block building right where the ticket holder endogeously time the sale initiation. The framework aims to explore a conjectured equivalence between ETs and the spot / just-in-time auctions as mediated by MEV-Boost. ET markets are defined before providing an auction model. For a revenue-, equivalently, MEV-maximizing, and risk neutral proposer, and the execution right matures in a finite period of time, if the proposer optimally sells the right closer to the expiry date, buyers of the ticket must exercise the prposing right immediately. The ET mechanism with deterministic maturity, therefore, becomes a spot auction that takes place at its maturity date. In other words, the ET holder exerts control over the exercise decision of the buyer, hence, the time of the spot auctions, which may spur censorship issues and centralize the ET supply. 
 
 ## ET Market
