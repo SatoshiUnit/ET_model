@@ -16,14 +16,6 @@ We first revisit the ET mechanism:
 A **_secondary ET market_** emerges exactly because of the **_forward nature_** of ETs. ETs may also come with a maturity, requiring that the proposing right be executed within a certain number of forthcoming blocks.
 
 
-## Secondary Market
-From economic theory, there are several reasons why a secondary market deserves a perusal: 
-
-1. The textbook logic of resale is that, whenever there is an inefficient allocation in the primary market, resale markets increase welfare by restoring efficiency, that is, ensures the buyer who values the most is allocated the item. However, in ET secondary markets where resale can be driven by arbitrage, primary  market buyers may engage in rent-seeling behaviour: a typical case is where brokers buy up Taylor Swift's tickets quickly once they are on sale. Resale, therefore, can stimulate inefficient behavour in the primary market, but promote efficient reallocations in the secondary. It suggests allowing for secondary ET sales may mitigate centralization effects in the primary as shown by existing studies (Burian, Crapis, and Saleh, 2024; Agentic simulations of ET market, EF, 2024).
-
-2. Existing theory suggests auctions with resale distorts behavoiour in the primary auction. Resale has received little attention in the economic literature despite widespread in practice, because by revealing private information through bidding in the primary market, ;osers who bid again in the secondary essentially play a common value auctio nwhere their valuations depend on those of the opponents' reveale din the first round. Thus, a primary-secondary dynamic auction with independent private valuations can be reduced to a static auction with common values in the aforementioned sense. But the assumptions underlying this intuition are flawed in the ET context. 
-
-
 Should there be no ETs, the protocol distriutes a bundle of proposing, building, and validating rights to the (Beacon Chain) proposer by default. The PBS is a class of market mechanisms for the proposer to delegate the building right. 
 
 (Note: an arrow represents a market, pointing from seller to buyer)
@@ -35,9 +27,17 @@ With ET, the proposal right is still **_endowed_** by the protocol to the Beacon
 However, should the ET holder decide to sell instead of exercise, the secondary market becomes the bridge between primary ET market and the PBS market.
 ![Diagram of PBS with ET ex post secondary sale](ET_secondary.png "With ET, ex-post secondary sale, PBS")
 
+## Secondary Market
+From economic theory, there are several reasons why a secondary market deserves a perusal: 
+
+1. The textbook logic of resale is that, whenever there is an inefficient allocation in the primary market, resale markets increase welfare by restoring efficiency, that is, ensures the buyer who values the most is allocated the item. However, in ET secondary markets where resale can be driven by arbitrage, primary  market buyers may engage in rent-seeling behaviour: a typical case is where brokers buy up Taylor Swift's tickets quickly once they are on sale. Resale, therefore, can stimulate inefficient behavour in the primary market, but promote efficient reallocations in the secondary. It suggests allowing for secondary ET sales may mitigate centralization effects in the primary as shown by existing studies (Burian, Crapis, and Saleh, 2024; Agentic simulations of ET market, EF, 2024).
+
+2. Existing theory suggests auctions with resale distorts behavoiour in the primary auction. Resale has received little attention in the economic literature despite widespread in practice, because by revealing private information through bidding in the primary market, ;osers who bid again in the secondary essentially play a common value auctio nwhere their valuations depend on those of the opponents' reveale din the first round. Thus, a primary-secondary dynamic auction with independent private valuations can be reduced to a static auction with common values in the aforementioned sense. But the assumptions underlying this intuition are flawed in the ET context. 
+
 
 ## The Model
-We model the market of execution tickets (ETs) as that of auctions of block building right where the ticket holder endogeously time the sale initiation. The framework aims to explore a conjectured equivalence between ETs and the spot / just-in-time auctions as mediated by MEV-Boost. ET markets are defined before providing an auction model. For a revenue-, equivalently, MEV-maximizing, and risk neutral proposer, and the execution right matures in a finite period of time, if the proposer optimally sells the right closer to the expiry date, buyers of the ticket must exercise the prposing right immediately. The ET mechanism with deterministic maturity, therefore, becomes a spot auction that takes place at its maturity date. In other words, the ET holder exerts control over the exercise decision of the buyer, hence, the time of the spot auctions, which may spur censorship issues and centralize the ET supply.
+We may model the primar-secondary ET market structure in the following ways: 
+1. A protocol designer sells / auctions off the ET to a pool of buyers / bidders with independent, private valuations. The designer cannot observe the off-chain resale procedure---the key assumption that embeds the off-chain agreement proofness criteria. We may seek a class of equilibrium in which the protocol designer implements no resale, which means no secondary market endogenously arises. 
 
 
 We investigate the proposer's decision to sell the ET in the secondary market. Taking the primary ET market as exogenous, we model the secondary market as an auction of proposing rights, with the timing of the sale being endogenous. The model includes the following elements:
