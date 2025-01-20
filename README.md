@@ -36,9 +36,8 @@ From economic theory, there are several reasons why a secondary market deserves 
 
 
 ## The Model
-We may model the primar-secondary ET market structure in the following ways: 
-1. A protocol designer sells / auctions off the ET to a pool of buyers / bidders with independent, private valuations. The designer cannot observe the off-chain resale procedure---the key assumption that embeds the off-chain agreement proofness criteria. We may seek a class of equilibrium in which the protocol designer implements no resale, which means no secondary market endogenously arises. 
-
+We may model the primar-secondary ET market structure as follows: 
+1. A protocol designer sells / auctions off the ET to a pool of buyers / bidders with independent, private valuations. **_The designer cannot observe the off-chain resale procedure_**---the key assumption that embeds the off-chain agreement proofness criteria. We may seek a class of equilibrium in which the protocol designer implements no resale, which means no secondary market endogenously arises. This setup explores the optimal auction format. 
 
 We investigate the proposer's decision to sell the ET in the secondary market. Taking the primary ET market as exogenous, we model the secondary market as an auction of proposing rights, with the timing of the sale being endogenous. The model includes the following elements:
 
