@@ -15,18 +15,6 @@ We first revisit the ET mechanism:
 
 A **_secondary ET market_** emerges exactly because of the **_forward nature_** of ETs. ETs may also come with a maturity, requiring that the proposing right be executed within a certain number of forthcoming blocks.
 
-
-Should there be no ETs, the protocol distriutes a bundle of proposing, building, and validating rights to the (Beacon Chain) proposer by default. The PBS is a class of market mechanisms for the proposer to delegate the building right. 
-
-(Note: an arrow represents a market, pointing from seller to buyer)
-![Diagram of PBS](noET.png "No ET, PBS")
-With ET, the proposal right is still **_endowed_** by the protocol to the Beacon Chain proposer, but it now sells the building right to Execution Proposers, using the primary ET market.  
-
-
-![Diagram of PBS with ET ex ante secondary sale](withET.png "With ET, ex-ante secondary sale, PBS")
-However, should the ET holder decide to sell instead of exercise, the secondary market becomes the bridge between primary ET market and the PBS market.
-![Diagram of PBS with ET ex post secondary sale](ET_secondary.png "With ET, ex-post secondary sale, PBS")
-
 ## Secondary Market
 From economic theory, there are several reasons why a secondary market deserves a perusal: 
 
@@ -52,4 +40,14 @@ We investigate the proposer's decision to sell the ET in the secondary market. T
 ##Voluntary Buyer Participation
 
 ##Thoughts on Open Questions
+Should there be no ETs, the protocol distriutes a bundle of proposing, building, and validating rights to the (Beacon Chain) proposer by default. The PBS is a class of market mechanisms for the proposer to delegate the building right. 
+
+(Note: an arrow represents a market, pointing from seller to buyer)
+![Diagram of PBS](noET.png "No ET, PBS")
+With ET, the proposal right is still **_endowed_** by the protocol to the Beacon Chain proposer, but it now sells the building right to Execution Proposers, using the primary ET market.  
+
+
+![Diagram of PBS with ET ex ante secondary sale](withET.png "With ET, ex-ante secondary sale, PBS")
+However, should the ET holder decide to sell instead of exercise, the secondary market becomes the bridge between primary ET market and the PBS market.
+![Diagram of PBS with ET ex post secondary sale](ET_secondary.png "With ET, ex-post secondary sale, PBS")
 ###
