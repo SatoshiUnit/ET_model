@@ -17,7 +17,7 @@ A **_secondary ET market_** emerges exactly because of the **_forward nature_** 
 
 
 ## Secondary Market
-Existing studies (Burian, Capris, and Saleh 2024; EF research articles) suggest ETs introduce centralization risks, can a secondary market allocate tickets to a diverse group of buyers to decentralize proposal rights?
+The textbook logic of resale is that, whenever there is an inefficient allocation in the primary market, resale markets increase welffare by restoring efficiency, that is, ensures the buyer who values the most is allocated the item. However, in ET secondary markets where resale can be driven by arbitrage, primary  market buyers may engage in rent-seeling behaviour: a typical case is where brokers buy up Taylor Swift's tickets quickly once they are on sale. Resale, therefore, can stimulate inefficient behavour in the primary market, but promote efficient reallocations in the secondary. It suggests allowing for secondary ET sales may mitigate centralization effects in the primary as shown by existing studies (Burian, Crapis, and Saleh, 2024; Agentic simulations of ET market, EF, 2024).
 
 Should there be no ETs, the protocol distriutes a bundle of proposing, building, and validating rights to the (Beacon Chain) proposer by default. The PBS is a class of market mechanisms for the proposer to delegate the building right. 
 
@@ -29,6 +29,8 @@ With ET, the proposal right is still **_endowed_** by the protocol to the Beacon
 ![Diagram of PBS with ET ex ante secondary sale](withET.png "With ET, ex-ante secondary sale, PBS")
 However, should the ET holder decide to sell instead of exercise, the secondary market becomes the bridge between primary ET market and the PBS market.
 ![Diagram of PBS with ET ex post secondary sale](ET_secondary.png "With ET, ex-post secondary sale, PBS")
+
+
 ## The Model
 
 We investigate the proposer's decision to sell the ET in the secondary market. Taking the primary ET market as exogenous, we model the secondary market as an auction of proposing rights, with the timing of the sale being endogenous. The model includes the following elements:
