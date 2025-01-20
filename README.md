@@ -4,17 +4,12 @@ The nondeterminism of execution tickets leverages the uncertainty of blockspace 
 Understanding the mutual distortions of players' behaviour in a primary-sedonary market structure sheds light on the optimal primary market designs such as pricing mechanisms.
 
 
-We model the market of execution tickets (ETs) as that of auctions of block building right where the ticket holder endogeously time the sale initiation. The framework aims to explore a conjectured equivalence between ETs and the spot / just-in-time auctions as mediated by MEV-Boost. ET markets are defined before providing an auction model. For a revenue-, equivalently, MEV-maximizing, and risk neutral proposer, and the execution right matures in a finite period of time, if the proposer optimally sells the right closer to the expiry date, buyers of the ticket must exercise the prposing right immediately. The ET mechanism with deterministic maturity, therefore, becomes a spot auction that takes place at its maturity date. In other words, the ET holder exerts control over the exercise decision of the buyer, hence, the time of the spot auctions, which may spur censorship issues and centralize the ET supply. 
-
 ## ET Market
-ET is a market that auctions off the right of proposing. 
+We first revisit the ET mechanism: 
 
+1. A protocol sells an exogenous supply of ETs to potential execution proposers. This first round of ET purchase directly from the protocol is the **_primary ET market_**. Each ET confers its holder the proposing right for some future block.
 
-Consider the ET mechanism:
-
-1. A protocol sells an exogenous supply of ETs to the group of validators. This first round of ET purchase directly from the protocol is the **_primary ET market_**. Each ET confers its holder the proposing right for some future block.
-
-2. One ET is drawn for every block, where its holder wins the proposing right.
+2. One ET is drawn randomly for every block by the protocol, where its holder wins the proposing right.
 
 3. After the winner's proposal, its ticket is **burned** (permanently removed from the network), and simultaneously a new ET is **minted** (generated) to reiterate the primary market exchange.
 
@@ -22,11 +17,11 @@ A **_secondary ET market_** emerges exactly because of the **_forward nature_** 
 
 
 ## Secondary Market
-There are several reasons why a secondary market should enter the ET design space: 
+From economic theory, there are several reasons why a secondary market deserves a perusal: 
 
 (a) The textbook logic of resale is that, whenever there is an inefficient allocation in the primary market, resale markets increase welfare by restoring efficiency, that is, ensures the buyer who values the most is allocated the item. However, in ET secondary markets where resale can be driven by arbitrage, primary  market buyers may engage in rent-seeling behaviour: a typical case is where brokers buy up Taylor Swift's tickets quickly once they are on sale. Resale, therefore, can stimulate inefficient behavour in the primary market, but promote efficient reallocations in the secondary. It suggests allowing for secondary ET sales may mitigate centralization effects in the primary as shown by existing studies (Burian, Crapis, and Saleh, 2024; Agentic simulations of ET market, EF, 2024).
 
-(b) Existing theory suggests auctions with resale distorts behavoiour in the primary auction. 
+(b) Existing theory suggests auctions with resale distorts behavoiour in the primary auction. Resale has received little attention in the economic literature despite widespread in practice, because by revealing private information through bidding in the primary market, osers who bid again in the secondary essentially play a common value auctio nwhere their valuations depend on those of the opponents' reveale din the first round. Thus, a primary-secondary dynamic auction with independent private valuations can be reduced to a static auction with common values in the aforementioned sense. 
 
 
 Should there be no ETs, the protocol distriutes a bundle of proposing, building, and validating rights to the (Beacon Chain) proposer by default. The PBS is a class of market mechanisms for the proposer to delegate the building right. 
@@ -42,6 +37,8 @@ However, should the ET holder decide to sell instead of exercise, the secondary 
 
 
 ## The Model
+We model the market of execution tickets (ETs) as that of auctions of block building right where the ticket holder endogeously time the sale initiation. The framework aims to explore a conjectured equivalence between ETs and the spot / just-in-time auctions as mediated by MEV-Boost. ET markets are defined before providing an auction model. For a revenue-, equivalently, MEV-maximizing, and risk neutral proposer, and the execution right matures in a finite period of time, if the proposer optimally sells the right closer to the expiry date, buyers of the ticket must exercise the prposing right immediately. The ET mechanism with deterministic maturity, therefore, becomes a spot auction that takes place at its maturity date. In other words, the ET holder exerts control over the exercise decision of the buyer, hence, the time of the spot auctions, which may spur censorship issues and centralize the ET supply.
+
 
 We investigate the proposer's decision to sell the ET in the secondary market. Taking the primary ET market as exogenous, we model the secondary market as an auction of proposing rights, with the timing of the sale being endogenous. The model includes the following elements:
 
