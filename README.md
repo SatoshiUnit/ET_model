@@ -27,6 +27,7 @@ From economic theory, there are several reasons why a secondary market warrants 
 We may model the primar-secondary ET market structure with the following ingredients: 
 1. A protocol designer sells / auctions off the ET to a pool of buyers / bidders with independent, private valuations. **_The designer has incomplete information about the off-chain resale procedure_**--the key assumption embedding the off-chain agreement proofness criteria. We may seek a class of equilibrium in which the protocol designer implements no resale, which means no secondary market endogenously arises. This setup explores the optimal auction format. Information revealed in the primary market reduces buyer / bidders' information rent in the secondary market, because of revealed valuations. 
 
+2. A reuced form resale market that admits generalization to a wide range of resale market structure, the commonest of which features the primary market winner claiming monopoly power with full bargaining power, hence makes a take-it-or-leave-it offer to the primary market loser. 
 
 We investigate the proposer's decision to sell the ET in the secondary market. Taking the primary ET market as exogenous, we model the secondary market as an auction of proposing rights, with the timing of the sale being endogenous. The model includes the following elements:
 
