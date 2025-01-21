@@ -16,7 +16,7 @@ We first revisit the ET mechanism:
 A **_secondary ET market_** emerges exactly because of the **_forward nature_** of ETs. ETs may also come with a maturity, requiring that the proposing right be executed within a certain number of forthcoming blocks.
 
 ## Secondary Market
-From economic theory, there are several reasons why a secondary market deserves a perusal: 
+From economic theory, there are several reasons why a secondary market warrants a more careful consideration: 
 
 1. The textbook logic of resale is that, whenever there is an inefficient allocation in the primary market, resale markets increase welfare by restoring efficiency, that is, ensures the buyer who values the most is allocated the item. However, in ET secondary markets where resale can be driven by arbitrage, primary  market buyers may engage in rent-seeling behaviour: a typical case is where brokers buy up Taylor Swift's tickets quickly once they are on sale. Resale, therefore, can stimulate inefficient behavour in the primary market, but promote efficient reallocations in the secondary. It suggests **_allowing for secondary ET sales may mitigate centralization effects_**, which emerges in the primary as shown by existing studies (Burian, Crapis, and Saleh, 2024; Agentic simulations of ET market, EF, 2024).
 
